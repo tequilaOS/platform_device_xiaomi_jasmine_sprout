@@ -13,7 +13,6 @@ $(call inherit-product, vendor/ssos/config/common_full_phone.mk)
 # Define first api level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Build Description
 PRODUCT_BUILD_PROP_OVERRIDES += \
