@@ -10,9 +10,6 @@ include device/xiaomi/wayne-common/BoardConfigCommon.mk
 # Device Path
 DEVICE_PATH := device/xiaomi/jasmine_sprout
 
-# Manifest
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
-
 # TWRP Support
 ifeq ($(BUILD_TWRP), true)
 -include recovery/twrp/xiaomi/jasmine_sprout/twrp.mk
