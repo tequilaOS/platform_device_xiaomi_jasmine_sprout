@@ -16,9 +16,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Build Description
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="redfin-user 12 SP1A.210812.015 7679548 release-keys" \
-    PRODUCT_NAME="jasmine_sprout" \
-    TARGET_DEVICE="jasmine_sprout"
+    PRIVATE_BUILD_DESC="redfin-user 12 SP1A.210812.015 7679548 release-keys"
 
 # Build Fingerprint
 BUILD_FINGERPRINT := "google/redfin/redfin:12/SP1A.210812.015/7679548:user/release-keys"
