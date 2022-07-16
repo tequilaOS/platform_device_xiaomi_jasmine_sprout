@@ -5,11 +5,11 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# inherit MI A2 device config for ShapeShiftOS
+# inherit MI A2 device config for tequilaOS
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ssos_jasmine_sprout.mk
+    $(LOCAL_DIR)/tequila_jasmine_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    ssos_jasmine_sprout-user \
-    ssos_jasmine_sprout-userdebug \
-    ssos_jasmine_sprout-eng
+    tequila_jasmine_sprout-user \
+    tequila_jasmine_sprout-userdebug \
+    tequila_jasmine_sprout-eng
