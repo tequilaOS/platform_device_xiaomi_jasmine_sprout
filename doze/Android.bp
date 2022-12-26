@@ -14,7 +14,7 @@ android_app {
     privileged: true,
 
     static_libs: [
-        "org.pixelexperience.settings.resources",
+        "com.tequila.settings.resources",
     ],
 
     optimize: {
