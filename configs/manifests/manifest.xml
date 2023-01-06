@@ -129,6 +129,11 @@
         <fqname>@1.0::IGoodixBiometricsFingerprint/default</fqname>
     </hal>
     <hal format="hidl">
+        <name>vendor.google.google_battery</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.1::IGoogleBattery/default</fqname>
+    </hal>
+    <hal format="hidl">
         <name>vendor.qti.data.factory</name>
         <transport>hwbinder</transport>
         <fqname>@2.2::IFactory/default</fqname>
