@@ -137,7 +137,7 @@ ro.vendor.qti.va_aosp.support=1
 # Graphics
 debug.cpurend.vsync=false
 ro.hardware.egl=adreno
-ro.hardware.vulkan=adreno
+ro.hardware.vulkan=sdm660
 
 # Media
 debug.stagefright.omx_default_rank=0
