@@ -135,6 +135,7 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 ro.vendor.qti.va_aosp.support=1
 
 # Graphics
+debug.cpurend.vsync=false
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 
