@@ -89,6 +89,7 @@ vendor.gralloc.enable_fb_ubwc=1
 vendor.display.disable_skip_validate=1
 debug.renderengine.backend=skiaglthreaded
 debug.hwui.renderer=skiagl
+debug.hwui.skia_atrace_enabled=false
 renderthread.skia.reduceopstasksplitting=true
 
 # Fwk detect
