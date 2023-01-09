@@ -487,6 +487,10 @@ PRODUCT_PACKAGES += \
     android.hardware.power-service-qti \
     android.hardware.power.stats@1.0-service
 
+# Perfd
+PRODUCT_PACKAGES += \
+    libqti-perfd-client
+
 # Perf
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@1.0.vendor \
